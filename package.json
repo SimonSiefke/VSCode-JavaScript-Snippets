@@ -1,0 +1,32 @@
+{
+  "name": "javascript-snippets",
+  "description": "Code snippets for JavaScript",
+  "version": "0.0.1",
+  "displayName": "JavaScript Snippets",
+  "publisher": "SimonSiefke",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonSiefke/VSCode-JavaScript-Snippets"
+  },
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "keywords": [
+    "JavaScript Snippets"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "import": {
+    "prefix": "imp",
+    "body": [
+      "import ${1} from '${1/([a-z]*[A-Z]*)(([A-Z])+([a-z]+))?/${1:/downcase}${2:+-}$3${4:/downcase}/g}'",
+      ""
+    ],
+    "description": "normal import"
+  }
+}

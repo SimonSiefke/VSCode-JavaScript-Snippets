@@ -1,0 +1,3 @@
+# VSCode JavaScript snippets
+
+TODO:
