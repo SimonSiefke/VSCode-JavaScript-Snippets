@@ -1,5 +1,10 @@
 {
-  "import": {
+  "import destructured": {
+    "prefix": "imd",
+    "body": ["import { ${2} } from '${1}'", ""],
+    "description": "destructured import"
+  },
+  "import normal": {
     "prefix": "imp",
     "body": [
       "import ${1} from '${1/([A-Z]?[a-z]*)(([A-Z]+[a-z]+))?/${1:/downcase}${2:+-}${3:/downcase}/g}'",
