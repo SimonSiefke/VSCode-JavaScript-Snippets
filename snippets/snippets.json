@@ -1,4 +1,14 @@
 {
+  "export function": {
+    "prefix": "ef",
+    "body": ["export function ${1}(${2}){", "  ${3}", "}"],
+    "description": "export function"
+  },
+  "export default function": {
+    "prefix": "edf",
+    "body": ["export default function ${1}(${2}){", "  ${3}", "}"],
+    "description": "export default function"
+  },
   "import destructured": {
     "prefix": "imd",
     "body": ["import { ${2} } from '${1}'", ""],
