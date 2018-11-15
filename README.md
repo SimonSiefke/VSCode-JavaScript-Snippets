@@ -1,5 +1,7 @@
 # VSCode JavaScript Snippets
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SimonSiefke/VSCode-JavaScript-Snippets.svg)](https://greenkeeper.io/)
+
 ## Import
 
 | Snippet | Example                             | Description         |
